@@ -64,5 +64,5 @@ class Translation(object):
 
 ○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : 🔐
 
-○ ᴄʀᴇᴀᴛᴏʀ :  ʙx ʙᴏᴛᴢ!... 
+○ ᴄʀᴇᴀᴛᴏʀ :  <b><a href="https://t.me/Cv_groupAdmin2">𝐋𝐄𝐎 ❤️</a></b>
 """
