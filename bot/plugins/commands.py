@@ -22,9 +22,9 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭  നിങ്ങൾക് സിനിമകൾ വെന്നോ? അതിനായി അത്യം ങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യണം... 😁  Join ചെയതത്തിനു ശേഷം വീണ്ടും ബോട്ട് /start ആക്കൂ.😁 </b>",
+                text="🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝙐𝙥𝙙𝙖𝙩𝙚 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭  നിങ്ങൾക് സിനിമകൾ വെന്നോ? അതിനായി അത്യം ങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യണം... 😁  Join ചെയതത്തിനു ശേഷം വീണ്ടും ബോട്ട് /start ആക്കൂ.😁 </b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR CHANNEL🔰 ", url=f"https://t.me/cv_updatez")]
+                    [ InlineKeyboardButton(text=" 🔰JOIN OUR UPDATE CHANNEL🔰 ", url=f"https://t.me/joinchat/j7bQHCK9B2hmYzc9")]
               ])
             )
             return
@@ -54,7 +54,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔶New Movies🔶', url="https://t.me/new_movie_z"
+                                    '𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎', url="https://t.me/joinchat/j7bQHCK9B2hmYzc9"
                                 )
                         ]
                     ]
@@ -66,8 +66,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🗣️𝙂𝙍𝙊𝙐𝙋', url='https://t.me/cv_group1'),
-        InlineKeyboardButton('📺𝘾𝙃𝘼𝙉𝙉𝙀𝙇', url ='https://t.me/cv_updatez')
+        InlineKeyboardButton('🗣️𝙎𝙐𝙋𝙋𝙊𝙍𝙏', url='https://t.me/BXSupport'),
+        InlineKeyboardButton('📺𝘼𝙉𝙔 𝘿𝙊𝙐𝘽𝙏', url ='https://t.me/joinchat/j7bQHCK9B2hmYzc9')
     ],[
         InlineKeyboardButton('👨‍🔧𝘾𝙍𝙀𝘼𝙏𝙊𝙍', url='https://t.me/Cv_groupAdmin2')
     ],[
@@ -89,10 +89,10 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Home 🏃‍♂️', callback_data='start'),
+        InlineKeyboardButton('About 🗞️', callback_data='about')
     ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('Close ❌️', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
