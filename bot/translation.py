@@ -1,23 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG & @MRK_YT
+# (c) @AlbertEinsteinTG
 
 class Translation(object):
     
-    START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
+    START_TEXT = """<b>Hey {}!!</b>
+<i>Am Just A Advance Auto Filter Bot....😉
 
-<b>Am Just A Pro Auto Filter Bot....😉</b>
+Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
-<b>I am officially made by @BX_Botz</b>
+For More Details Hit /help Button Below..
 
-<b>ഇനി എന്തോ നോക്കി ഇരികുവ എന്നെ നിന്റെ ഗ്രൂപ്പിൽ ആഡ് ചെയ്യടാ 😂</b>
-
-<b>ഈ ഗ്രൂപ്പ്‌ ഒന്ന് സപ്പോർട്ട് ചെയ്യണേ 🙏 @BXSupport</b>
-
-<b>@cv_group1</b>"""    
+</i>"""    
     
     HELP_TEXT = """
-<b>😉How To Use Me!😉?</b>
+<b><i><u>How To Use Me!?</u></i></b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
@@ -46,23 +43,16 @@ class Translation(object):
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-<b><a href="https://t.me/BX_Botz">𝐁𝐗 𝐁𝐎𝐓𝐙</a></b>
+@cv_group1 
 """
     
-    ABOUT_TEXT = """
-📕 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    
+<b>➥ Creator</b> : <b><i><a href="https://t.me/Cv_groupAdmin2">𝐋𝐄𝐎 ❤️</a></i></b>
 
-○ ᴍʏ ɴᴀᴍᴇ : Autofilter 
+<b>➥ Language</b> : <code>Python3</code>
 
-○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
+<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-○ ғʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ
-
-○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
-
-○ ᴠᴇʀsɪᴏɴ : 2.1.0
-
-○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : 🔐
-
-○ ᴄʀᴇᴀᴛᴏʀ :  <b><a href="https://t.me/Cv_groupAdmin2">𝐋𝐄𝐎 ❤️</a></b>
+<b>➥ Source Code</b> : <i><a href="https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot">🔐</a></i>
 """
