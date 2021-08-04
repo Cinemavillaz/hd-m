@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝙐𝙥𝙙𝙖𝙩𝙚 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 🤭  നിങ്ങൾക് സിനിമകൾ വെന്നോ? അതിനായി അത്യം ങ്ങളുടെ മെയിൻ ചാനലിൽ ജോയിൻ ചെയ്യണം... 😁  Join ചെയതത്തിനു ശേഷം വീണ്ടും ബോട്ട് /start ആക്കൂ.😁 </b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🔰JOIN OUR UPDATE CHANNEL🔰 ", url=f"https://t.me/joinchat/j7bQHCK9B2hmYzc9")]
+                    [ InlineKeyboardButton(text=" 🔰JOIN OUR UPDATE CHANNEL🔰 ", url=f"https://t.me/BX_Botz")]
               ])
             )
             return
