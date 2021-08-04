@@ -66,12 +66,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🗣️𝙎𝙐𝙋𝙋𝙊𝙍𝙏', url='https://t.me/BXSupport'),
-        InlineKeyboardButton('📺𝘼𝙉𝙔 𝘿𝙊𝙐𝘽𝙏', url ='https://t.me/joinchat/j7bQHCK9B2hmYzc9')
+        InlineKeyboardButton('🗣️𝙎𝙐𝙋𝙋𝙊𝙍𝙏', url='https://t.me/joinchat/j7bQHCK9B2hmYzc9'),
+        InlineKeyboardButton('📺𝘼𝙉𝙔 𝘿𝙊𝙐𝘽𝙏', url ='https://t.me/BXSupport')
     ],[
         InlineKeyboardButton('👨‍🔧𝘾𝙍𝙀𝘼𝙏𝙊𝙍', url='https://t.me/Cv_groupAdmin2')
     ],[
-        InlineKeyboardButton('⚠️ Help', callback_data="help")
+        InlineKeyboardButton('💡 Help', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
