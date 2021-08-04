@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("🔘 JOIN OUR MAIN CHANNEL 🔘", url="https://t.me/cv_updatez")
+                    InlineKeyboardButton("🔘 JOIN OUR MAIN CHANNEL 🔘", url="https://t.me/BX_Botz")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -159,7 +159,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"🔶 𝐓𝐎𝐓𝐀𝐋 𝐏𝐀𝐆𝐄𝐒 1/{len_result if len_result < max_pages else max_pages} 🔶", callback_data="ignore")
         ])
         
         
@@ -210,7 +210,7 @@ async def auto_filter(bot, update):
            await bot.send_photo(
                 chat_id=update.chat.id,
                 photo="https://telegra.ph/file/5fcc55f98020dc6e4bcf3.jpg",
-                caption=f"<b>𝐆𝐫𝐨𝐮𝐩:- <b>@cv_group1</b> \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- {query} \n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)} \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲:- {update.from_user.mention} \n\n𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗗𝗼𝘄𝗻 𝗕𝘂𝘁𝘁𝗼𝗻𝘀 𝗧𝗼 𝗔𝗰𝗰𝗲𝘀𝘀 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 \n\nപടം ലഭിക്കുന്നതിനായി താഴെ കാണുന്ന ബട്ടണുകളിൽ ക്ലിക്ക് ചെയ്യുക👇</b>",
+                caption=f"<b>𝐆𝐫𝐨𝐮𝐩:- <b>@BXSupport</b> \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- {query} \n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)} \n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲:- {update.from_user.mention} \n\n𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗗𝗼𝘄𝗻 𝗕𝘂𝘁𝘁𝗼𝗻𝘀 𝗧𝗼 𝗔𝗰𝗰𝗲𝘀𝘀 𝗧𝗵𝗲 𝗙𝗶𝗹𝗲 \n\nപടം ലഭിക്കുന്നതിനായി താഴെ കാണുന്ന ബട്ടണുകളിൽ ക്ലിക്ക് ചെയ്യുക👇</b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
